@@ -174,6 +174,7 @@ def main():
     parser.add_argument('--cache_rate', default=0.6, type=float, help='The percentage of cached data in total')
     parser.add_argument('--store_result', action="store_true", default=False, help='whether save prediction result')
     parser.add_argument('--overlap', default=0.5, type=float, help='overlap for sliding_window_inference')
+    parser.add_argument('--uniseg_format', action="store_true", default=False, help='whether to adapt to the uniseg format')
 
     args = parser.parse_args()
 

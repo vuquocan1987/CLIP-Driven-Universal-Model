@@ -48,8 +48,8 @@ from monai.config.type_definitions import NdarrayOrTensor
 
 from utils.utils import get_key
 
-ORGAN_DATASET_DIR = '/home/jliu288/data/whole_organ/'
-ORGAN_LIST = 'dataset/dataset_list/PAOT.txt'
+ORGAN_DATASET_DIR = '/home/an/Workspace/data/MOTS_formatted/'
+ORGAN_LIST = 'dataset/dataset_list/UNISEG.txt'
 NUM_WORKER = 8
 NUM_CLASS = 32
 TRANSFER_LIST = ['10_08']

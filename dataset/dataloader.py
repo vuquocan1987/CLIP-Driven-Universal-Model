@@ -221,7 +221,8 @@ class Compose_Select(Compose):
                 continue
             input_ = apply_transform(_transform, input_, self.map_items, self.unpack_items, self.log_stats)
         return input_
-
+def parse_name_from_path(path):
+    return path.split('/')[-1].split('.')[0]
 def get_loader(args):
     train_transforms = Compose(
         [

@@ -103,6 +103,10 @@ cd ../
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -W ignore -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 train.py --dist True --data_root_path /mnt/zzhou82/PublicAbdominalData/ --num_workers 12 --num_samples 4 --cache_dataset --cache_rate 0.6 --uniform_sample
 ```
 
+```
+CUDA_VISIBLE_DEVICES=0 python -W ignore -m torch.distributed.launch --nproc_per_node=8 --master_port=1234 train.py --dist True --data_root_path /home/an/Workspace/data/MOTS_CLIP/ --num_workers 12 --num_samples 4 --cache_dataset --cache_rate 0.6 --uniform_sample
+```
+
 ## 2. Validation
 
 ```bash

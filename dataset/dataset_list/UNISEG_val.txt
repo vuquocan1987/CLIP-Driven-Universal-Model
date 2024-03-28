@@ -1,0 +1,17 @@
+04_LiTS/imagesTr/volume-109.nii	04_LiTS/labelsTr/segmentation-109.nii
+04_LiTS/imagesTr/volume-32.nii	04_LiTS/labelsTr/segmentation-32.nii
+04_LiTS/imagesTr/volume-48.nii	04_LiTS/labelsTr/segmentation-48.nii
+04_LiTS/imagesTr/volume-53.nii	04_LiTS/labelsTr/segmentation-53.nii
+04_LiTS/imagesTr/volume-66.nii	04_LiTS/labelsTr/segmentation-66.nii
+04_LiTS/imagesTr/volume-72.nii	04_LiTS/labelsTr/segmentation-72.nii
+05_KiTS/imagesTr/kidney_0.nii.gz	05_KiTS/labelsTr/kidney_0.nii.gz
+05_KiTS/imagesTr/kidney_104.nii.gz	05_KiTS/labelsTr/kidney_104.nii.gz
+05_KiTS/imagesTr/kidney_128.nii.gz	05_KiTS/labelsTr/kidney_128.nii.gz
+05_KiTS/imagesTr/kidney_180.nii.gz	05_KiTS/labelsTr/kidney_180.nii.gz
+05_KiTS/imagesTr/kidney_19.nii.gz	05_KiTS/labelsTr/kidney_19.nii.gz
+05_KiTS/imagesTr/kidney_199.nii.gz	05_KiTS/labelsTr/kidney_199.nii.gz
+05_KiTS/imagesTr/kidney_202.nii.gz	05_KiTS/labelsTr/kidney_202.nii.gz
+05_KiTS/imagesTr/kidney_209.nii.gz	05_KiTS/labelsTr/kidney_209.nii.gz
+05_KiTS/imagesTr/kidney_36.nii.gz	05_KiTS/labelsTr/kidney_36.nii.gz
+05_KiTS/imagesTr/kidney_45.nii.gz	05_KiTS/labelsTr/kidney_45.nii.gz
+05_KiTS/imagesTr/kidney_94.nii.gz	05_KiTS/labelsTr/kidney_94.nii.gz

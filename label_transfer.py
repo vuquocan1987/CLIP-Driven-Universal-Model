@@ -48,13 +48,18 @@ from monai.config.type_definitions import NdarrayOrTensor
 
 from utils.utils import get_key
 
-ORGAN_DATASET_DIR = '/computenodes/node31/team1/jliu/data/ct_data/'
-ORGAN_LIST = 'dataset/dataset_list/PAOT.txt'
+ORGAN_DATASET_DIR = '/home/an/Workspace/data/MOTS_CLIP/'
+ORGAN_LIST = 'dataset/dataset_list/UNISEG.txt'
 NUM_WORKER = 8
 NUM_CLASS = 32
 ## full list
 # TRANSFER_LIST = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10_03', '10_06', '10_07', '10_08', '10_09', '10_10', '12', '13', '14']
-TRANSFER_LIST = ['08']
+TRANSFER_LIST = ['04','05']
+
+MAP_CLIP_KEY_TO_UNISEG = {
+    
+}
+
 TEMPLATE={
     '01': [1,2,3,4,5,6,7,8,9,10,11,12,13,14],
     '02': [1,0,3,4,5,6,7,0,0,0,11,0,0,14],

@@ -157,6 +157,8 @@ def main():
 
     parser.add_argument('--threshold_organ', default='Pancreas Tumor')
     parser.add_argument('--threshold', default=0.6, type=float)
+    parser.add_argument('--uniseg_format', action="store_true", default=False, help='whether to adapt to the uniseg format')
+
 
     args = parser.parse_args()
 
