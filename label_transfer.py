@@ -48,7 +48,7 @@ from monai.config.type_definitions import NdarrayOrTensor
 
 from utils.utils import get_key
 
-ORGAN_DATASET_DIR = '/home/an/Workspace/data/MOTS_CLIP/'
+ORGAN_DATASET_DIR = 'data/MOTS_CLIP/'
 ORGAN_LIST = 'dataset/dataset_list/UNISEG.txt'
 NUM_WORKER = 8
 NUM_CLASS = 32

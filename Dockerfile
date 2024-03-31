@@ -24,11 +24,11 @@ RUN pip3 install nnunet
 RUN pip3 install -r requirements.txt
 RUN pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 RUN pip install --no-cache-dir 'monai[all]'
-
 COPY . .
-RUN chmod +x entrypoint.sh
 
-ENTRYPOINT [ "/app/entrypoint.sh" ]
+# RUN chmod +x entrypoint.sh
+
+# ENTRYPOINT [ "/app/entrypoint.sh" ]
 
 # Pre-process the datasets
 # RUN python3 Upstream/prepare_Kidney_Dataset.py
