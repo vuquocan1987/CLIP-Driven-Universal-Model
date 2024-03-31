@@ -1,0 +1,10 @@
+05KiTS/imagesTr/kidney_115.nii.gz 05KiTS/labelsTr/kidney_115.nii.gz
+05KiTS/imagesTr/kidney_116.nii.gz 05KiTS/labelsTr/kidney_116.nii.gz
+05KiTS/imagesTr/kidney_117.nii.gz 05KiTS/labelsTr/kidney_117.nii.gz
+05KiTS/imagesTr/kidney_156.nii.gz 05KiTS/labelsTr/kidney_156.nii.gz
+05KiTS/imagesTr/kidney_160.nii.gz 05KiTS/labelsTr/kidney_160.nii.gz
+05KiTS/imagesTr/kidney_182.nii.gz 05KiTS/labelsTr/kidney_182.nii.gz
+05KiTS/imagesTr/kidney_38.nii.gz 05KiTS/labelsTr/kidney_38.nii.gz
+05KiTS/imagesTr/kidney_45.nii.gz 05KiTS/labelsTr/kidney_45.nii.gz
+05KiTS/imagesTr/kidney_71.nii.gz 05KiTS/labelsTr/kidney_71.nii.gz
+05KiTS/imagesTr/kidney_96.nii.gz 05KiTS/labelsTr/kidney_96.nii.gz

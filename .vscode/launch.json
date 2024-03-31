@@ -28,6 +28,13 @@
                 "--cache_rate", "0.1",
                 "--uniform_sample"
             ]
+        },
+        {
+            "name": "Python Debugger: current file",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
         }
     ]
 }

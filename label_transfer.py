@@ -48,9 +48,9 @@ from monai.config.type_definitions import NdarrayOrTensor
 
 from utils.utils import get_key
 
-ORGAN_DATASET_DIR = 'data/MOTS_CLIP/'
-ORGAN_LIST = 'dataset/dataset_list/UNISEG.txt'
-NUM_WORKER = 8
+ORGAN_DATASET_DIR = 'data/Clip/'
+ORGAN_LIST = 'dataset/dataset_list/MOTS_simple.txt'
+NUM_WORKER = 1
 NUM_CLASS = 32
 ## full list
 # TRANSFER_LIST = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10_03', '10_06', '10_07', '10_08', '10_09', '10_10', '12', '13', '14']
